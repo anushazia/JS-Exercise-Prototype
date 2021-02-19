@@ -115,13 +115,11 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
-  */
-  
-  
+      1. Window binding is referring to the global scope, if you call the this function it will refer to the window of the browser.
+      2. Implicit binding the this refers to the object it is within.
+      3. New binding refers to the object that is created by the function, within a constructor function.
+      4. Explicit binding the this is explicitly defined to the specific object you choose using .call(), .apply(), .bind(). 
+  */  
   ///////// END OF CHALLENGE /////////
 
   /* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
